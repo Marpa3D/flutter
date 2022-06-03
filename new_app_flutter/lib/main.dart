@@ -7,12 +7,15 @@ void main() {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Прямо в точку'),
+          title: const Center(
+            child: Text('Прямо в точку'),
+          ),
+          backgroundColor: Color.fromARGB(255, 63, 73, 78),
         ),
         body: const Center(
-          child: Text('Привет, это стартовый экран!)'),
+          child: Text('Первый экран!'),
         ),
       ),
     ),
-  );
+  ); // runApp
 }
